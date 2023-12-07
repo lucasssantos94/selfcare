@@ -428,6 +428,109 @@ input:valid {
         height: 15vh;
     }
 
+}
+
+/* mobile */
+@media(321px <=width <=480px) {
+    :root {
+        --width-card: 40vw;
+    }
+
+    a {
+        font-size: 1.4rem;
+    }
+
+    h3 {
+        font-size: 1.4rem;
+    }
+
+    h4 {
+        font-size: 1.6rem;
+    }
+
+    span,
+    label {
+        font-size: 1.8rem;
+    }
+
+    .menu-header img {
+        margin: 1rem;
+    }
+
+    .banner {
+        height: 30vh;
+    }
+
+    .box-cards {
+        padding: 4rem 0 3rem 0;
+    }
+
+    .box-cards .container {
+        gap: 3rem;
+    }
+
+    .btn-buy {
+        font-size: 1.4rem;
+        margin-top: 1rem;
+    }
+
+    .description-product p {
+        font-size: 1.4rem;
+        line-height: 2rem;
+    }
+
+    .main-content-footer {
+        padding: 2rem 0;
+    }
+
+    .box-input {
+        height: 10vh;
+    }
+}
+
+/* small tablets */
+@media(481px <=width <=767px) {}
+
+/* Tablets, Ipads */
+@media(768px <=width <1024px) {
+    .box-input {
+        height: 15vh;
+    }
+}
+
+/* laptops */
+@media(1025px <=width <=1280px) {}
+
+@media(201px <=width <=630px) {
+    .main-content-footer .container {
+        height: auto;
+        flex-direction: column;
+        align-items: start;
+        gap: 3rem;
+        padding-bottom: 1rem;
+    }
+
+    form {
+        width: 100%;
+    }
+
+    .box-input {
+        flex-direction: column;
+        flex-wrap: nowrap;
+        gap: 1rem;
+        margin-top: 1rem;
+        height: 15vh;
+    }
+
+    input {
+        border-right: 0.5px solid var(--color-border);
+    }
+
+    .btn-register,
+    input {
+        border-radius: 5px;
+    }
+
     .social-links img {
         width: 8vw;
     }
@@ -442,43 +545,27 @@ input:valid {
     }
 }
 
-/* mobile */
-@media(321px <=width <=480px) {}
-
-/* small tablets */
-@media(481px <=width <=767px) {}
-
-/* Tablets, Ipads */
-@media(768px <=width <1024px) {}
-
-/* laptops */
-@media(1025px <=width <=1280px) {}
-
-@media(201px <=width <=629px) {
+@media(630px <=width <=1024px) {
     .main-content-footer .container {
-        height: auto;
-        flex-direction: column;
-        align-items: start;
-        gap: 3rem;
-    }
-
-    form {
-        width: 100%;
+        padding-bottom: 2rem;
     }
 
     .box-input {
         flex-direction: column;
         flex-wrap: nowrap;
         gap: 1rem;
-        margin-top: 1rem;
     }
 
-    input {
-        border-right: 0.5px solid var(--color-border);
+    .social-links img {
+        width: 4vw;
     }
 
-    .btn-register,
-    input {
-        border-radius: 5px;
+    .payment-methods img {
+        width: 6vw;
+        margin: 1rem;
+    }
+
+    .payment-methods img:nth-child(2) {
+        width: 4vw;
     }
 }
