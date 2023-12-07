@@ -241,3 +241,30 @@ input:valid {
     font-size: 2rem;
     font-weight: 900;
 }
+
+.links-footer .container {
+    height: auto;
+    padding: 1rem 0;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.social-links img {
+    width: 2vw;
+    margin: 1rem;
+}
+
+.payment-methods {
+    display: flex;
+    align-items: center;
+}
+
+.payment-methods img {
+    width: 3vw;
+    margin: 1rem;
+}
+
+.payment-methods img:nth-child(2) {
+    width: 2vw;
+}
