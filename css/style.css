@@ -410,7 +410,58 @@ input:valid {
     }
 }
 
-@media(width <=629px) {
+/* small mobile */
+@media(201px <=width <=320px) {
+    :root {
+        --width-card: 90vw;
+    }
+
+    html {
+        font-size: 50%;
+    }
+
+    .banner {
+        height: 40vh;
+    }
+
+    .box-input {
+        height: 15vh;
+    }
+
+    .social-links img {
+        width: 8vw;
+    }
+
+    .payment-methods img {
+        width: 10vw;
+        margin: 1rem;
+    }
+
+    .payment-methods img:nth-child(2) {
+        width: 8vw;
+    }
+}
+
+/* mobile */
+@media(321px <=width <=480px) {}
+
+/* small tablets */
+@media(481px <=width <=767px) {}
+
+/* Tablets, Ipads */
+@media(768px <=width <1024px) {}
+
+/* laptops */
+@media(1025px <=width <=1280px) {}
+
+@media(201px <=width <=629px) {
+    .main-content-footer .container {
+        height: auto;
+        flex-direction: column;
+        align-items: start;
+        gap: 3rem;
+    }
+
     form {
         width: 100%;
     }
@@ -419,7 +470,6 @@ input:valid {
         flex-direction: column;
         flex-wrap: nowrap;
         gap: 1rem;
-        height: 10vh;
         margin-top: 1rem;
     }
 
@@ -432,15 +482,3 @@ input:valid {
         border-radius: 5px;
     }
 }
-
-/* mobile */
-@media(320px <=width <=480px) {}
-
-/* small tablets */
-@media(481px <=width <=767px) {}
-
-/* Tablets, Ipads */
-@media(768px <=width <1024px) {}
-
-/* laptops */
-@media(1025px <=width <=1280px) {}
