@@ -101,3 +101,20 @@ header .container {
     width: 2.5rem;
     margin: 2rem;
 }
+
+.banner {
+    height: 50vh;
+    background: url(../images/banner.png) no-repeat center;
+    background-size: cover;
+}
+
+.promotion {
+    padding: 1rem;
+}
+
+.promotion .container {
+    height: 8vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
