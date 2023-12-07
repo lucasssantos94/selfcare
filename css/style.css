@@ -269,6 +269,7 @@ input:valid {
     width: 2vw;
 }
 
+/* smart watch */
 @media (width <=200px) {
     :root {
         --width-card: 100%;
@@ -432,16 +433,12 @@ input:valid {
 
 /* mobile */
 @media(321px <=width <=480px) {
-    :root {
-        --width-card: 40vw;
-    }
-
     a {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
     h3 {
-        font-size: 1.4rem;
+        font-size: 1.6rem;
     }
 
     h4 {
@@ -489,12 +486,22 @@ input:valid {
 }
 
 /* small tablets */
-@media(481px <=width <=767px) {}
+@media(481px <=width <=767px) {
+    .banner {
+        height: 30vh;
+    }
+}
+
+@media(321px <=width <=768px) {
+    :root {
+        --width-card: 40vw;
+    }
+}
 
 /* Tablets, Ipads */
 @media(768px <=width <1024px) {
-    .box-input {
-        height: 15vh;
+    .banner {
+        height: 40vh;
     }
 }
 
@@ -519,16 +526,7 @@ input:valid {
         flex-wrap: nowrap;
         gap: 1rem;
         margin-top: 1rem;
-        height: 15vh;
-    }
-
-    input {
-        border-right: 0.5px solid var(--color-border);
-    }
-
-    .btn-register,
-    input {
-        border-radius: 5px;
+        height: 12vh;
     }
 
     .social-links img {
@@ -545,7 +543,7 @@ input:valid {
     }
 }
 
-@media(630px <=width <=1024px) {
+@media(631px <=width <=1024px) {
     .main-content-footer .container {
         padding-bottom: 2rem;
     }
@@ -567,5 +565,73 @@ input:valid {
 
     .payment-methods img:nth-child(2) {
         width: 4vw;
+    }
+}
+
+@media(481px <=width <634px) {
+    h3 {
+        font-size: 1.8rem;
+    }
+}
+
+@media(width < 1024px) {
+    .box-input {
+        height: 10vh;
+    }
+
+    input {
+        border-right: 0.5px solid var(--color-border);
+        font-size: 1.6rem;
+    }
+
+    .btn-register,
+    input {
+        border-radius: 5px;
+    }
+}
+
+@media (orientation: landscape) and (286px <=width < 1200px) {
+    header .container {
+        height: 15vh;
+    }
+
+    h3 {
+        font-size: 1.8rem;
+        white-space: nowrap;
+    }
+
+    .banner {
+        height: 60vh;
+    }
+
+    .btn-buy {
+        font-size: 1.8rem;
+    }
+
+    .main-content-footer .container {
+        height: auto;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+
+    .box-input {
+        height: 10vh;
+    }
+
+    .links-footer .container {
+        height: 15vh;
+    }
+
+    .social-links img {
+        width: 3vw;
+    }
+
+    .payment-methods img {
+        width: 5vw;
+    }
+
+    .payment-methods img:nth-child(2) {
+        width: 3vw;
     }
 }
