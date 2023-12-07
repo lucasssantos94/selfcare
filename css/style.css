@@ -79,3 +79,25 @@ label {
     font-size: 2rem;
     font-weight: 900;
 }
+
+.container {
+    width: 90vw;
+    margin: 0 auto;
+}
+
+header .container {
+    height: 10vh;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo {
+    width: 12rem;
+    height: 3.1rem;
+}
+
+.menu-header img {
+    width: 2.5rem;
+    margin: 2rem;
+}
