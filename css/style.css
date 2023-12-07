@@ -1,0 +1,81 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;700&display=swap");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: "Lato", sans-serif;
+    color: var(--color-text-dark);
+}
+
+:root {
+    --color-text-dark: #161616;
+    --color-text-light: #f5f5f5;
+    --color-hover: #512200bd;
+    --color-main: #5ca720;
+    --color-main-rgba: rgba(93, 166, 33, 0.6);
+    --color-invalid-rgba: rgba(255, 0, 0, 0.6);
+    --color-light: #a5a1a1;
+    --color-light2: #f9f9f9;
+    --color-border: #d9d9d9;
+    --width-card: 25vw;
+}
+
+html {
+    font-size: 62.5%;
+}
+
+img {
+    width: 100%;
+}
+
+button {
+    border: none;
+    cursor: pointer;
+    color: var(--color-text-light);
+    font-weight: 900;
+    background: var(--color-main);
+    transition: 0.3s;
+}
+
+button:hover {
+    background-color: var(--color-hover);
+}
+
+a {
+    text-decoration: none;
+    font-size: 2rem;
+    font-weight: 600;
+}
+
+a:hover {
+    color: var(--color-hover);
+}
+
+h2 {
+    font-size: 2rem;
+}
+
+h3 {
+    font-size: 2.2rem;
+    margin: 1rem 0;
+}
+
+h4 {
+    font-size: 2rem;
+}
+
+p {
+    font-size: 1.8rem;
+}
+
+span {
+    font-size: 2.5rem;
+    color: var(--color-main);
+    border-bottom: 1px solid;
+}
+
+label {
+    font-size: 2rem;
+    font-weight: 900;
+}
