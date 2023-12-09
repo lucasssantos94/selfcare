@@ -99,7 +99,7 @@ header .container {
 
 .menu-header img {
     width: 2.5rem;
-    margin: 2rem;
+    margin-left: 3rem;
 }
 
 .banner {
@@ -177,7 +177,6 @@ header .container {
     box-shadow: 0px 4px 4px 0px rgba(0, 0, 0, 0.25);
 }
 
-
 footer {
     background-color: var(--color-light2);
 }
@@ -206,7 +205,7 @@ form {
 
 .box-input {
     display: flex;
-    height: 6vh;
+    height: 4vh;
     margin-top: 2rem;
     flex-wrap: wrap;
 }
@@ -384,6 +383,21 @@ input:valid {
         gap: 3rem;
     }
 
+    form,
+    input,
+    .btn-register {
+        width: 100%;
+    }
+
+    .box-input {
+        gap: 1rem;
+        margin-top: 1rem;
+    }
+
+    .btn-register {
+        font-size: 1.4rem;
+    }
+
     .links-footer .container {
         height: auto;
         padding: 1rem 0;
@@ -398,16 +412,16 @@ input:valid {
     }
 
     .social-links img {
-        width: 12vw;
+        width: 16vw;
     }
 
     .payment-methods img {
-        width: 12vw;
+        width: 20vw;
         margin: 1rem;
     }
 
     .payment-methods img:nth-child(2) {
-        width: 10vw;
+        width: 14vw;
     }
 }
 
@@ -424,11 +438,6 @@ input:valid {
     .banner {
         height: 40vh;
     }
-
-    .box-input {
-        height: 15vh;
-    }
-
 }
 
 /* mobile */
@@ -481,7 +490,7 @@ input:valid {
     }
 
     .box-input {
-        height: 10vh;
+        height: 2vh;
     }
 }
 
@@ -505,9 +514,6 @@ input:valid {
     }
 }
 
-/* laptops */
-@media(1025px <=width <=1280px) {}
-
 @media(201px <=width <=630px) {
     .main-content-footer .container {
         height: auto;
@@ -526,7 +532,6 @@ input:valid {
         flex-wrap: nowrap;
         gap: 1rem;
         margin-top: 1rem;
-        height: 12vh;
     }
 
     .social-links img {
