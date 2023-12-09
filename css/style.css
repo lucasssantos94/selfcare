@@ -205,7 +205,7 @@ form {
 
 .box-input {
     display: flex;
-    height: 4vh;
+    height: 6vh;
     margin-top: 2rem;
     flex-wrap: wrap;
 }
@@ -218,6 +218,7 @@ input {
     height: 100%;
     padding-left: 1rem;
     outline: none;
+    font-size: 1.8rem;
 }
 
 input:required:not(:placeholder-shown):invalid {
